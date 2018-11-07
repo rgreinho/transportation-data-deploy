@@ -70,7 +70,7 @@ waze_archive_postgre:
   enabled: true
   filename: waze_psql_py
   init_func: main
-  job: false
+  job: true
   path: ../waze-archive
   source: waze_endpoint
 
